@@ -1,7 +1,7 @@
 // Mixins in here
 
-.button(@color) {
-  background-color: @color;
+.button(@color-bg; @color-font) {
+  background-color: @color-bg;
   width: 20rem;
   height: 4.5rem;
   padding-top: 1.25rem;
@@ -9,5 +9,5 @@
   font-size: 1.85rem;
   justify-content: center;
   text-align: center;
-  color: @white;
+  color: @color-font;
 }
