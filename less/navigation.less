@@ -4,6 +4,15 @@ nav {
   align-items: baseline;
   padding: 20px 10% 25px 10%;
   border-bottom: 2px dashed @navigation-border;
+
+  @media @mobile {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .logo {
+      padding-bottom: 10px;
+    }
+  }
   
   .nav-links {
     display: flex;
