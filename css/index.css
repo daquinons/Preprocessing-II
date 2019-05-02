@@ -187,18 +187,6 @@ nav .nav-links {
   justify-content: space-around;
   width: 325px;
 }
-header hr {
-  border: 0;
-  border-bottom: 2px dashed #C0C0C0;
-  margin-top: 25px;
-}
-header .info-header {
-  padding-bottom: 10px;
-  border-bottom: 2px dashed #C0C0C0;
-}
-header .info-header img {
-  margin-bottom: 20px;
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -209,6 +197,13 @@ header .info-header img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header .info-header {
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home header .info-header img {
+  margin-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
