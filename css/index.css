@@ -250,3 +250,14 @@ nav .nav-links {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  background-color: #008080;
+  width: 20rem;
+  height: 4.5rem;
+  padding-top: 1.25rem;
+  border-radius: 1.65rem;
+  font-size: 1.85rem;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+}
